@@ -33,7 +33,7 @@ def parse():
                             parent = topic.parent
 
                             entry_data = {
-                                'version': version,
+                                'version': float(version.replace('.x', '')),
                                 'id': id,
                                 'title': '',
                                 'permalink': urljoin(FLASK_DOCS_URL.format(version=version),
