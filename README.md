@@ -22,10 +22,10 @@ The output JSON file looks like this:
 ```json
 [
     {
-        "version": 1.0,
+        "version": "2.0.x",
         "id": "flask.Flask.default_config",
         "title": "Flask.default_config",
-        "permalink": "http://flask.pocoo.org/docs/1.0/api/#flask.Flask.default_config",
+        "permalink": "https://flask.palletsprojects.com/en/2.0.x/api/#flask.Flask.default_config",
         "categories": [
             "Flask"
         ],
