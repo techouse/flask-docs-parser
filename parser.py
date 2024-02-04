@@ -6,7 +6,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-FLASK_VERSIONS = ("2.3.x", "2.2.x", "2.1.x", "2.0.x", "1.1.x", "1.0.x", "0.12.x")
+FLASK_VERSIONS = ("3.0.x", "2.3.x", "2.2.x", "2.1.x", "2.0.x", "1.1.x")
 FLASK_DOCS_URL = "https://flask.palletsprojects.com/en/{version}/"
 EXCLUDED_IDS = {"index-", "module-"}
 
